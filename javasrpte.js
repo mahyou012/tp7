@@ -25,15 +25,13 @@ function multiplication () {
 }
 
 function permute(){
-    var v3 ="";
-    a = document.getElementById.t1.value;
-    b = document.getElementById.t2.value;
-    v3 = a;
-    a =b;
-    b =v3;
-    t1.value = a;
-    t2.value = b;
+    var a =document.getElementById("t1").value;
+    var b =document.getElementById("t2").value;
+    var c =document.getElementById("t1").value;
+    document.getElementById("t1").value=b;
+    document.getElementById("t2").value= c;
 }
+
 
 function parite(){
     var v;
